@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WWLJCameraViewController">
+            <connections>
+                <outlet property="takeButton" destination="a3t-Uz-awi" id="ARE-ar-y8k"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewContainer" destination="dgW-dt-afA" id="shR-GK-xEy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dgW-dt-afA">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a3t-Uz-awi">
+                            <rect key="frame" x="177" y="646" width="60" height="60"/>
+                            <color key="backgroundColor" red="1" green="0.1048343217627089" blue="0.12366789268880896" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="1tf-oa-cOG"/>
+                                <constraint firstAttribute="height" constant="60" id="tbL-CZ-OS8"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="startRecord:" destination="-1" eventType="touchUpInside" id="1GU-aY-Cys"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3of-1C-6YS">
+                            <rect key="frame" x="364" y="30" width="30" height="30"/>
+                            <color key="backgroundColor" red="0.69019607839999997" green="0.87450980389999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="8Pr-Qa-gTc"/>
+                                <constraint firstAttribute="width" constant="30" id="pJz-6N-gvt"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="changeCamera:" destination="-1" eventType="touchUpInside" id="AjQ-qP-lWi"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yuA-wJ-JhT">
+                            <rect key="frame" x="20" y="30" width="30" height="30"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="IPg-x8-GlA"/>
+                                <constraint firstAttribute="width" constant="30" id="uMA-di-sqS"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="closeB:" destination="-1" eventType="touchUpInside" id="k6F-F2-DEW"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="3of-1C-6YS" firstAttribute="top" secondItem="dgW-dt-afA" secondAttribute="top" constant="30" id="6mY-OP-pdm"/>
+                        <constraint firstAttribute="trailing" secondItem="3of-1C-6YS" secondAttribute="trailing" constant="20" id="L3L-rF-0yd"/>
+                        <constraint firstAttribute="centerX" secondItem="a3t-Uz-awi" secondAttribute="centerX" id="M0P-m6-mYc"/>
+                        <constraint firstItem="yuA-wJ-JhT" firstAttribute="leading" secondItem="dgW-dt-afA" secondAttribute="leading" constant="20" id="WYO-p8-gKc"/>
+                        <constraint firstItem="yuA-wJ-JhT" firstAttribute="top" secondItem="dgW-dt-afA" secondAttribute="top" constant="30" id="emB-Vs-v6e"/>
+                        <constraint firstAttribute="bottom" secondItem="a3t-Uz-awi" secondAttribute="bottom" constant="30" id="oA8-FS-wXV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="dgW-dt-afA" secondAttribute="bottom" id="38y-SW-VXe"/>
+                <constraint firstAttribute="trailing" secondItem="dgW-dt-afA" secondAttribute="trailing" id="UxC-02-Npo"/>
+                <constraint firstItem="dgW-dt-afA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="r7g-Jy-2Y9"/>
+                <constraint firstItem="dgW-dt-afA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="vVD-ES-vmw"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+        </view>
+    </objects>
+</document>

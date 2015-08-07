@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CC884651B70D3BB00A7021C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC884641B70D3BB00A7021C /* main.m */; };
+		6CC884681B70D3BB00A7021C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC884671B70D3BB00A7021C /* AppDelegate.m */; };
+		6CC8846B1B70D3BB00A7021C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8846A1B70D3BB00A7021C /* ViewController.m */; };
+		6CC8846E1B70D3BB00A7021C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC8846C1B70D3BB00A7021C /* Main.storyboard */; };
+		6CC884701B70D3BB00A7021C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC8846F1B70D3BB00A7021C /* Images.xcassets */; };
+		6CC884731B70D3BB00A7021C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CC884711B70D3BB00A7021C /* LaunchScreen.xib */; };
+		6CC8847F1B70D3BB00A7021C /* WWLJCamerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC8847E1B70D3BB00A7021C /* WWLJCamerTests.m */; };
+		6CC8848B1B70D3F300A7021C /* WWLJCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC884891B70D3F300A7021C /* WWLJCameraViewController.m */; };
+		6CC8848C1B70D3F300A7021C /* WWLJCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CC8848A1B70D3F300A7021C /* WWLJCameraViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CC884791B70D3BB00A7021C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CC884571B70D3BB00A7021C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC8845E1B70D3BB00A7021C;
+			remoteInfo = WWLJCamer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CC8845F1B70D3BB00A7021C /* WWLJCamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWLJCamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC884631B70D3BB00A7021C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC884641B70D3BB00A7021C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CC884661B70D3BB00A7021C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CC884671B70D3BB00A7021C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CC884691B70D3BB00A7021C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CC8846A1B70D3BB00A7021C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CC8846D1B70D3BB00A7021C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CC8846F1B70D3BB00A7021C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CC884721B70D3BB00A7021C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6CC884781B70D3BB00A7021C /* WWLJCamerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWLJCamerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC8847D1B70D3BB00A7021C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC8847E1B70D3BB00A7021C /* WWLJCamerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWLJCamerTests.m; sourceTree = "<group>"; };
+		6CC884881B70D3F300A7021C /* WWLJCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWLJCameraViewController.h; sourceTree = "<group>"; };
+		6CC884891B70D3F300A7021C /* WWLJCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWLJCameraViewController.m; sourceTree = "<group>"; };
+		6CC8848A1B70D3F300A7021C /* WWLJCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWLJCameraViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CC8845C1B70D3BB00A7021C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC884751B70D3BB00A7021C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CC884561B70D3BB00A7021C = {
+			isa = PBXGroup;
+			children = (
+				6CC884611B70D3BB00A7021C /* WWLJCamer */,
+				6CC8847B1B70D3BB00A7021C /* WWLJCamerTests */,
+				6CC884601B70D3BB00A7021C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CC884601B70D3BB00A7021C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CC8845F1B70D3BB00A7021C /* WWLJCamer.app */,
+				6CC884781B70D3BB00A7021C /* WWLJCamerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CC884611B70D3BB00A7021C /* WWLJCamer */ = {
+			isa = PBXGroup;
+			children = (
+				6CC884661B70D3BB00A7021C /* AppDelegate.h */,
+				6CC884671B70D3BB00A7021C /* AppDelegate.m */,
+				6CC884691B70D3BB00A7021C /* ViewController.h */,
+				6CC8846A1B70D3BB00A7021C /* ViewController.m */,
+				6CC884881B70D3F300A7021C /* WWLJCameraViewController.h */,
+				6CC884891B70D3F300A7021C /* WWLJCameraViewController.m */,
+				6CC8848A1B70D3F300A7021C /* WWLJCameraViewController.xib */,
+				6CC8846C1B70D3BB00A7021C /* Main.storyboard */,
+				6CC8846F1B70D3BB00A7021C /* Images.xcassets */,
+				6CC884711B70D3BB00A7021C /* LaunchScreen.xib */,
+				6CC884621B70D3BB00A7021C /* Supporting Files */,
+			);
+			path = WWLJCamer;
+			sourceTree = "<group>";
+		};
+		6CC884621B70D3BB00A7021C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CC884631B70D3BB00A7021C /* Info.plist */,
+				6CC884641B70D3BB00A7021C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CC8847B1B70D3BB00A7021C /* WWLJCamerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CC8847E1B70D3BB00A7021C /* WWLJCamerTests.m */,
+				6CC8847C1B70D3BB00A7021C /* Supporting Files */,
+			);
+			path = WWLJCamerTests;
+			sourceTree = "<group>";
+		};
+		6CC8847C1B70D3BB00A7021C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CC8847D1B70D3BB00A7021C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CC8845E1B70D3BB00A7021C /* WWLJCamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC884821B70D3BB00A7021C /* Build configuration list for PBXNativeTarget "WWLJCamer" */;
+			buildPhases = (
+				6CC8845B1B70D3BB00A7021C /* Sources */,
+				6CC8845C1B70D3BB00A7021C /* Frameworks */,
+				6CC8845D1B70D3BB00A7021C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWLJCamer;
+			productName = WWLJCamer;
+			productReference = 6CC8845F1B70D3BB00A7021C /* WWLJCamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CC884771B70D3BB00A7021C /* WWLJCamerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC884851B70D3BB00A7021C /* Build configuration list for PBXNativeTarget "WWLJCamerTests" */;
+			buildPhases = (
+				6CC884741B70D3BB00A7021C /* Sources */,
+				6CC884751B70D3BB00A7021C /* Frameworks */,
+				6CC884761B70D3BB00A7021C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CC8847A1B70D3BB00A7021C /* PBXTargetDependency */,
+			);
+			name = WWLJCamerTests;
+			productName = WWLJCamerTests;
+			productReference = 6CC884781B70D3BB00A7021C /* WWLJCamerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CC884571B70D3BB00A7021C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = iShareme;
+				TargetAttributes = {
+					6CC8845E1B70D3BB00A7021C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6CC884771B70D3BB00A7021C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6CC8845E1B70D3BB00A7021C;
+					};
+				};
+			};
+			buildConfigurationList = 6CC8845A1B70D3BB00A7021C /* Build configuration list for PBXProject "WWLJCamer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CC884561B70D3BB00A7021C;
+			productRefGroup = 6CC884601B70D3BB00A7021C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CC8845E1B70D3BB00A7021C /* WWLJCamer */,
+				6CC884771B70D3BB00A7021C /* WWLJCamerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CC8845D1B70D3BB00A7021C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC8846E1B70D3BB00A7021C /* Main.storyboard in Resources */,
+				6CC8848C1B70D3F300A7021C /* WWLJCameraViewController.xib in Resources */,
+				6CC884731B70D3BB00A7021C /* LaunchScreen.xib in Resources */,
+				6CC884701B70D3BB00A7021C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC884761B70D3BB00A7021C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CC8845B1B70D3BB00A7021C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC8846B1B70D3BB00A7021C /* ViewController.m in Sources */,
+				6CC8848B1B70D3F300A7021C /* WWLJCameraViewController.m in Sources */,
+				6CC884681B70D3BB00A7021C /* AppDelegate.m in Sources */,
+				6CC884651B70D3BB00A7021C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC884741B70D3BB00A7021C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC8847F1B70D3BB00A7021C /* WWLJCamerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CC8847A1B70D3BB00A7021C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CC8845E1B70D3BB00A7021C /* WWLJCamer */;
+			targetProxy = 6CC884791B70D3BB00A7021C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CC8846C1B70D3BB00A7021C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CC8846D1B70D3BB00A7021C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CC884711B70D3BB00A7021C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CC884721B70D3BB00A7021C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CC884801B70D3BB00A7021C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CC884811B70D3BB00A7021C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CC884831B70D3BB00A7021C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WWLJCamer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CC884841B70D3BB00A7021C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WWLJCamer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CC884861B70D3BB00A7021C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WWLJCamerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWLJCamer.app/WWLJCamer";
+			};
+			name = Debug;
+		};
+		6CC884871B70D3BB00A7021C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WWLJCamerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWLJCamer.app/WWLJCamer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC8845A1B70D3BB00A7021C /* Build configuration list for PBXProject "WWLJCamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC884801B70D3BB00A7021C /* Debug */,
+				6CC884811B70D3BB00A7021C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CC884821B70D3BB00A7021C /* Build configuration list for PBXNativeTarget "WWLJCamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC884831B70D3BB00A7021C /* Debug */,
+				6CC884841B70D3BB00A7021C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CC884851B70D3BB00A7021C /* Build configuration list for PBXNativeTarget "WWLJCamerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC884861B70D3BB00A7021C /* Debug */,
+				6CC884871B70D3BB00A7021C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CC884571B70D3BB00A7021C /* Project object */;
+}
